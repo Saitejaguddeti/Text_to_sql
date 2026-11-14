@@ -208,6 +208,3 @@ tests/
   be hidden from the role the agent connects as.
 - The sample data is made up.
 
-## License
-
-MIT
