@@ -1,0 +1,8 @@
+- transactions.amount is positive for money coming in and negative for money going out.
+- transactions.txn_type is one of: deposit, card_purchase, transfer_in, transfer_out, fee, interest, card_payment.
+- Card spend means card_purchase rows; the spend is the negative of the amount.
+- Rent, mortgage, and auto loan payments are transfer_out rows with merchant set to Rent, Mortgage, or Auto Loan.
+- accounts.account_type is one of: checking, savings, credit_card. accounts.status is open or closed.
+- A negative balance on a credit_card account is money the customer owes.
+- customers.segment is one of: retail, premier, small_business.
+- The transactions cover April 1 through September 30, 2026.
